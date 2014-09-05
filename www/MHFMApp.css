@@ -1,0 +1,388 @@
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+/* Large desktop */
+    @media (min-width: 1200px) { }
+
+/* Portrait tablet to landscape and desktop */
+    @media (min-width: 768px) and (max-width: 979px) {}
+
+/* Landscape phone to portrait tablet */
+    @media (max-width: 767px) {  }
+
+/* Landscape phones and down */
+    @media (max-width: 480px) { }
+
+
+	@media (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+/*iPad portrait*/
+}
+
+@media (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+/*iPad landscape*/
+}
+
+@media (max-device-width: 480px)
+and (orientation: portrait) {
+/*iPhone portrait*/
+}
+
+@media (max-device-width: 480px)
+and (orientation: landscape) {
+/*iPhone landscape*/
+#stop {
+left: 470px;
+
+}
+}
+
+body {
+	font-family: Helvetica;
+	margin: 0;
+}
+/*This begins my Accordion CSS*/
+
+p {font-size: 13px;}
+
+h1 {
+	background: #363636 url(open.png) no-repeat 0 11px;
+	padding: 10px 0 0 25px;
+	cursor: pointer;
+	margin:0px;
+	color:#e1e1e1;
+	font-size:130%;
+}
+
+h1.close {
+	background-image: url(close.png);
+}
+.wrapper {
+	/*width:960px;*/
+	margin:auto;
+	position: relative;
+	top: -497px;
+	left: 43px;
+	z-index: 1;
+}
+
+.YearWrapper {
+	/*width:960px;*/
+	margin:auto;
+	position: relative;
+	top: 10px;
+}
+.holder {
+	padding:10px;
+	width:940px;
+	background:#f0f0f0;
+	clear:both;
+}
+#type:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#type {
+   display:block;
+   clear:both;
+}
+#type aside {
+	width:190px;
+	float:left;
+        padding-right:10px;
+}
+#type aside img {
+	width:190px;
+}
+#typeInfo {
+	width:740px;
+	float:left;
+}
+#type h2, #type h3, #type h4 {
+  margin:0px;
+}
+
+
+#type h3 {
+	font-style:italic;
+}
+
+#type aside p {
+	font-size:12x;margin-bottom:0px;
+}
+
+.accordion-inner:hover {
+ color:gray;
+}
+
+.accordion-heading {
+	background: #ee2e24;
+}
+
+.accordion-toggle{
+	color: #ffffff;
+	/*text-align: center;*/
+}
+/*This ends my accordion CSS*/
+
+/*This starts my logo information*/
+
+.logocenter {
+text-align: center;
+}
+
+#logoHead {
+	width: 100px;
+	margin-top: 5px;
+}
+
+.SourceLogo {
+	padding-left: 75px;
+}
+/*This ends my logo information*/
+
+/*This begins my button info*/
+
+#locs {
+ margin-left: 25px;
+ margin-top: 15px;
+}
+
+#rad {
+ margin-left: 25px;
+ margin-top: 15px;
+}
+
+/*This ends my button info*/
+
+.nav {
+background-color: #000000;
+}
+
+.center {
+	float: none; margin-left: auto; margin-right: auto;
+}
+
+.boot {
+	background: rgba(0, 0, 0, .2);
+	padding: 10px 0;
+	text-align: left;
+	color: silver;
+	font-size: 16px;
+
+}
+
+.box {
+	background: rgba(0, 0, 0, .2);
+	padding: 10px 0;
+	text-align: left;
+
+}
+
+.blue {
+	background-color:#81c6da;
+	height: 400px;
+	margin-top:40px;
+	border-radius: 10px;
+	/*padding: 10px 0;
+	text-align: left;*/
+
+}
+
+.lightBlue {
+	background-color:#d5f3fc;
+	height: 400px;
+	margin-top:40px;
+	border-radius: 10px;
+	height: 100px;
+	/*padding: 10px 0;
+	text-align: left;*/
+
+}
+
+.hello {
+  padding: 60px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
+  /*background-color: #eeeeee;*/
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+
+.hello h1 {
+  margin-bottom: 0;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: inherit;
+}
+
+.hello li {
+  line-height: 30px;
+}
+
+.btn-primary {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #54b9d7;
+  *background-color: #54b9d7;
+  background-image: -moz-linear-gradient(top, #54b9d7, #54b9d7);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#54b9d7), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #54b9d7, #54b9d7);
+  background-image: -o-linear-gradient(top, #54b9d7, #54b9d7);
+  background-image: linear-gradient(to bottom, #54b9d7, #54b9d7);
+  background-repeat: repeat-x;
+  border-color: #54b9d7 #54b9d7 #54b9d7;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.dropdown-menu {
+	text-align: center;
+}
+
+.row-fluid {
+	margin: 0px 0px 5px -12zpx;
+}
+
+.alert {
+	margin-top: 25px;
+}
+
+#headline1 {
+	font-size: 50px;
+}
+
+#headline2 {
+	font-size: 40px;
+}
+
+#headline3 {
+	font-size: 25px;
+}
+#info {
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.popover {
+	position: absolute;
+	display: none;
+	z-index: 2;
+	height: 150px;
+	width: 300px;
+	background-color: #eaeaea;
+}
+.pic {
+	margin: 80px 0 0 0;
+	background: rgba(0, 0, 0, .2);
+	padding: 50px 0 0 0;
+	text-align: center;
+	margin-left: 0;
+	height: 140px;
+
+}
+
+.contact {
+	margin: 80px 0 0px 5px;
+	background: rgba(0, 0, 0, .2);
+	padding: 50px 0;
+	text-align: center;
+	height: 140px;
+}
+
+.accHead {
+	position: relative;
+	top: 19px;
+	border-top:none;
+	margin-left: 293px;
+	padding-left: 50px;
+}
+
+.inductee {
+padding-left: 65px;
+}
+
+.HomeButton {
+ position: absolute;
+ left: 95px;
+}
+
+.YearHomeButton {
+ position: absolute;
+ margin-top: -6px;
+ left: 95px;
+}
+
+.PlayAudio {
+ position: absolute;
+ left:595px;
+ margin-top: -38px;
+
+}
+
+.YearPlayAudio {
+ position: absolute;
+ left:595px;
+ margin-top: -45px;
+}
+
+.HomeLogo {
+margin-top: 30px;
+margin-left: -340px;
+position:relative;
+z-index: 2;
+}
+
+#radbut {
+	margin-left: 25px;
+}
+
+.bio {
+	margin: 10px;
+}
+
+.fax {
+	position:relative;
+	top: -40px;
+	z-index: 20;
+	margin: 30px;
+	/*height: 65px;*/
+}
+
+#notes {
+	z-index: 1;
+	position:absolute;
+	top:200px;
+}
+
+#stop {
+	position:absolute;
+	top:400px;
+	left: 170px;
+	z-index: 30;
+}
+
+#copy {
+	position:absolute;
+	top:410px;
+	left: 40px;
+	z-index: 40;
+}
